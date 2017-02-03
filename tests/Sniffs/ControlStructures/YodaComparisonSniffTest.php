@@ -11,9 +11,6 @@ class YodaComparisonSniffTest extends \SlevomatCodingStandard\Sniffs\TestCase
 		$this->assertNoSniffErrorInFile($resultFile);
 	}
 
-	/**
-	 * @return int[][]
-	 */
 	public function dataIncorrectFile(): array
 	{
 		$lineNumbers = [];

@@ -5,9 +5,6 @@ namespace SlevomatCodingStandard\Helpers;
 class StringHelperTest extends \PHPUnit_Framework_TestCase
 {
 
-	/**
-	 * @return string[][]
-	 */
 	public function dataStartsWith(): array
 	{
 		return [
@@ -36,9 +33,6 @@ class StringHelperTest extends \PHPUnit_Framework_TestCase
 		$this->assertTrue(StringHelper::startsWith($haystack, $needle));
 	}
 
-	/**
-	 * @return string[][]
-	 */
 	public function dataNotStartsWith(): array
 	{
 		return [
@@ -71,9 +65,6 @@ class StringHelperTest extends \PHPUnit_Framework_TestCase
 		$this->assertFalse(StringHelper::startsWith($haystack, $needle));
 	}
 
-	/**
-	 * @return string[][]
-	 */
 	public function dataEndsWith(): array
 	{
 		return [
@@ -102,9 +93,6 @@ class StringHelperTest extends \PHPUnit_Framework_TestCase
 		$this->assertTrue(StringHelper::endsWith($haystack, $needle));
 	}
 
-	/**
-	 * @return string[][]
-	 */
 	public function dataNotEndsWith(): array
 	{
 		return [

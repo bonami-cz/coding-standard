@@ -11,9 +11,6 @@ class AssignmentInConditionSniffTest extends \SlevomatCodingStandard\Sniffs\Test
 		$this->assertNoSniffErrorInFile($resultFile);
 	}
 
-	/**
-	 * @return int[][]
-	 */
 	public function dataIncorrectFile(): array
 	{
 		$lineNumbers = [];
